@@ -82,8 +82,6 @@ function checkScore() {
 
 }
 
-
-
 function randomThings() {
   ctx.clearRect(randomX, randomY, scale + 5, scale + 5);
   randomX = Math.floor(Math.random() * (ctx.canvas.width - 100));
